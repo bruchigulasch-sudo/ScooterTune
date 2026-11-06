@@ -1,0 +1,17 @@
+name: ScooterTune
+options:
+  bundleIdPrefix: com.ollie
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  ScooterTune:
+    type: application
+    platform: iOS
+    sources: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ollie.scootertune
+        INFOPLIST_KEY_CFBundleDisplayName: ScooterTune
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1,2"
